@@ -2,7 +2,7 @@ import Form from "./Components/Form";
 import { useState } from "react";
 const App = () => {
   //saved in local storage
-  const [valid, setValid] = useState("test");
+  const [valid, setValid] = useState("");
   //function updates valid state variable
   const validator = (prop) => {
     let credNumArr = Array.from(String(prop), Number);
